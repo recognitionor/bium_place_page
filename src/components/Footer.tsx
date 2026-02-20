@@ -6,9 +6,7 @@ export default function Footer() {
 
                     <div className="flex flex-col items-center md:items-start gap-4">
                         <div className="flex items-center gap-2">
-                            <div className="w-6 h-6 rounded-md bg-(--color-bium-green) flex items-center justify-center font-bold text-(--color-bium-bg) text-xs">
-                                B
-                            </div>
+                            <img src="/logo.png" alt="Bium Logo" className="w-6 h-6 rounded-md shadow-md" />
                             <span className="font-bold text-lg tracking-tight text-white">비움</span>
                         </div>
                         <p className="text-sm text-(--color-bium-text-muted) text-center md:text-left">
@@ -18,8 +16,8 @@ export default function Footer() {
                     </div>
 
                     <div className="flex gap-8 text-sm text-(--color-bium-text-muted)">
-                        <a href="#" className="hover:text-white transition-colors">이용약관</a>
-                        <a href="#" className="hover:text-white transition-colors">개인정보처리방침</a>
+                        <a href="/terms-of-service.html" className="hover:text-white transition-colors">이용약관</a>
+                        <a href="/privacy.html" className="hover:text-white transition-colors">개인정보처리방침</a>
                         <a href="#" className="hover:text-white transition-colors">고객센터</a>
                     </div>
 
