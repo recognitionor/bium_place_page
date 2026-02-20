@@ -1,8 +1,5 @@
 {
     "name": "bium-place-page",
     "compatibility_date": "2024-02-20",
-    "pages_build_output_dir": "./out",
-    "assets": {
-        "directory": "./out"
-    }
+    "pages_build_output_dir": "./out"
 }
