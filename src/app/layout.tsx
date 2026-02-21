@@ -5,8 +5,11 @@ export const metadata: Metadata = {
   title: '직장인 해우소, 비움(Bium)',
   description: '직장 생활의 스트레스, 참지 말고 비워내세요. 오직 직장인들만을 위한 따뜻한 익명 소통 공간입니다.',
   icons: {
-    icon: '/icon.png',
-    apple: '/icon.png',
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
 };
 
